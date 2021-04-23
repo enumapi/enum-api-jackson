@@ -34,7 +34,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.evilcorp</groupId>
+            <groupId>org.enumapi</groupId>
             <artifactId>enum-api-annotations</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

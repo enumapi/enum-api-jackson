@@ -8,7 +8,7 @@
         <module>enum-api-app</module>
         <module>enum-api-annotations</module>
     </modules>
-    <groupId>com.evilcorp</groupId>
+    <groupId>org.enumapi</groupId>
     <artifactId>enum-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>enum-api</name>
