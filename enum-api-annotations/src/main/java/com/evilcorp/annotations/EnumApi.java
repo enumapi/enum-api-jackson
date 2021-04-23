@@ -1,4 +1,4 @@
-package com.evilcorp.enumapi;
+package com.evilcorp.annotations;
 
 
 import java.lang.annotation.ElementType;

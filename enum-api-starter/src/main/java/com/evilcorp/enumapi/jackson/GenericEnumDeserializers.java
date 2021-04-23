@@ -1,6 +1,6 @@
 package com.evilcorp.enumapi.jackson;
 
-import com.evilcorp.enumapi.EnumApi;
+import com.evilcorp.annotations.EnumApi;
 import com.fasterxml.jackson.databind.BeanDescription;
 import com.fasterxml.jackson.databind.DeserializationConfig;
 import com.fasterxml.jackson.databind.JavaType;

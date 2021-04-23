@@ -6,6 +6,7 @@
     <modules>
         <module>enum-api-starter</module>
         <module>enum-api-app</module>
+        <module>enum-api-annotations</module>
     </modules>
     <groupId>com.evilcorp</groupId>
     <artifactId>enum-api</artifactId>
