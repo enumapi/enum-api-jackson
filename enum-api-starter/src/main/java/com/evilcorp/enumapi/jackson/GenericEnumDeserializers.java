@@ -8,6 +8,10 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.module.SimpleDeserializers;
 
+/**
+ * Jackson Deserializer generator, used to generate a deserializer
+ * for an interface, marked with {@link EnumApi} annotation.
+ */
 public class GenericEnumDeserializers extends SimpleDeserializers {
     @Override
     public JsonDeserializer<?> findBeanDeserializer(JavaType type, DeserializationConfig config, BeanDescription beanDesc) throws JsonMappingException {
