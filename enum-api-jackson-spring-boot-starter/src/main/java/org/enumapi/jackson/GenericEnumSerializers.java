@@ -1,4 +1,4 @@
-package org.enumapi.enumapi.jackson;
+package org.enumapi.jackson;
 
 import com.fasterxml.jackson.databind.BeanDescription;
 import com.fasterxml.jackson.databind.JavaType;

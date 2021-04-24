@@ -1,7 +1,7 @@
-package org.enumapi.enumapi.configuration;
+package org.enumapi.configuration;
 
-import org.enumapi.enumapi.jackson.GenericEnumDeserializers;
-import org.enumapi.enumapi.jackson.GenericEnumSerializers;
+import org.enumapi.jackson.GenericEnumDeserializers;
+import org.enumapi.jackson.GenericEnumSerializers;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.databind.Module;
 import org.enumapi.annotations.EnumApi;

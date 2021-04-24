@@ -1,4 +1,4 @@
-package org.enumapi.enumapi.jackson;
+package org.enumapi.jackson;
 
 import java.util.Objects;
 
