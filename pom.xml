@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>enum-api-starter</module>
+        <module>enum-api-jackson-spring-boot-starter</module>
         <module>enum-api-app</module>
         <module>enum-api-annotations</module>
     </modules>
