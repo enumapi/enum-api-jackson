@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.enumapi</groupId>
             <artifactId>enum-api-jackson-spring-boot-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 
     </dependencies>

@@ -61,6 +61,8 @@
         </dependency>
     </dependencies>
     <description>Spring boot starter configuring Jackson to deserialize interfaces marked with EnumApi annotations</description>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/enumapi/enum-api-jackson</url>
     <inceptionYear>2021</inceptionYear>
     <licenses>
         <license>
