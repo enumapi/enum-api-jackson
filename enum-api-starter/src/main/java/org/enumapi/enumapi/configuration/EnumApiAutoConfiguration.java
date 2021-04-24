@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
 public class EnumApiAutoConfiguration {
     @Bean
     public Module jsonObjectMapper() {
-        final var simpleModule = new SimpleModule();
+        final SimpleModule simpleModule = new SimpleModule();
         simpleModule.setDeserializers(new GenericEnumDeserializers());
         simpleModule.setSerializers(new GenericEnumSerializers());
         return simpleModule;

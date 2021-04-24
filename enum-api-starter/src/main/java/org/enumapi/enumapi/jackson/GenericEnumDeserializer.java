@@ -45,8 +45,8 @@ public class GenericEnumDeserializer extends JsonDeserializer<Object> {
 
     @Override
     public Object deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
-        final var value = jsonParser.getValueAsString();
-        final var enumValue = enumValues.get(value);
+        final String value = jsonParser.getValueAsString();
+        final Object enumValue = enumValues.get(value);
         if (enumValue != null) {
             return enumValue;
         }
