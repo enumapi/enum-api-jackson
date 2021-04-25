@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>enum-api-annotations</artifactId>
     <groupId>org.enumapi</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -123,6 +123,7 @@
                     <artifactId>build-helper-maven-plugin</artifactId>
                     <version>${build.helper.maven.plugin.version}</version>
                 </plugin>
+                <!--
                 <plugin>
                     <groupId>org.sonatype.plugins</groupId>
                     <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -134,6 +135,7 @@
                         <autoReleaseAfterClose>true</autoReleaseAfterClose>
                     </configuration>
                 </plugin>
+                -->
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven.surefire.version}</version>
@@ -217,5 +219,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>
