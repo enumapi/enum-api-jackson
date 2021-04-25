@@ -93,7 +93,7 @@
     <scm>
         <connection>scm:git:ssh://git@github.com:enumapi/enum-api-jackson.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:enumapi/enum-api-jackson.git</developerConnection>
-        <tag>enum-api-annotations-0.0.1</tag>
+        <tag>enum-api-jackson-spring-boot-starter-0.0.1</tag>
         <url>https://github.com/enumapi/enum-api-jackson</url>
     </scm>
     <issueManagement>
