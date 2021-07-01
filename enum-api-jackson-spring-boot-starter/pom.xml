@@ -4,7 +4,7 @@
 
     <artifactId>enum-api-jackson-spring-boot-starter</artifactId>
     <groupId>org.enumapi</groupId>
-    <version>0.0.1</version>
+    <version>0.0.4</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.enumapi</groupId>
             <artifactId>enum-api-annotations</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.4</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -117,6 +117,9 @@
                     <include>NOTICE*</include>
                     <include>LICENSE*</include>
                 </includes>
+            </resource>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
             </resource>
         </resources>
     </build>

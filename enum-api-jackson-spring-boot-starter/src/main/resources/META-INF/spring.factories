@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.enumapi.enumapi.configuration.EnumApiAutoConfiguration
+org.enumapi.configuration.EnumApiAutoConfiguration

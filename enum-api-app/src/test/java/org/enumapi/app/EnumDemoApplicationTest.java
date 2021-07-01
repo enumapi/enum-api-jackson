@@ -13,13 +13,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class EnumDemoApplicationTests {
+public class EnumDemoApplicationTest {
 
     @Autowired
     private MockMvc mvc;
 
     @Test
-    void testEnumDeserialization() throws Exception {
+    void testEnumDeserializationTest() throws Exception {
         this.mvc.perform(post("/make-decision")
                 .contentType(APPLICATION_JSON)
                 .content("{\n" +
